@@ -1,19 +1,6 @@
 #include <iostream>
 #include <string>
 
-
-class Bottle{
-public:
-	Bottle(){
-		int water = 100;
-		bool empty = false;
-	}
-
-	void fill(){
-		this->water = 100;
-	}
-};
-
 class SprayBottle::Bottle{
 	
 	SprayBottle(){
